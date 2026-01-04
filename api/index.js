@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-    const webhookURL = "SUA_URL_DO_WEBHOOK_AQUI";
+    const webhookURL = "https://discord.com/api/webhooks/1457145338161926276/zls4e-KmVOQwMrWLs_Ut-QR5N2R0mhpfKfw4BhVqUJOL-8mzELAZHk13rbJPlH4geFuv";
 
     if (req.method === 'POST') {
         const d = req.body;
